@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('/Users/user/Downloads/d9f534a0b6342eea1e9c001edd02c849.jpg '); 
+    background-size: cover;
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+}
+
+#app {
+    width: 80%; /* Ajuster la largeur selon vos préférences */
+    max-width: 800px; /* Définir une largeur maximale pour maintenir la lisibilité */
+    margin: 20px auto; /* Centrer l'application horizontalement */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: auto; /* Activer le défilement si le contenu dépasse la taille de l'application */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: 5px solid #007bff;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], select {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for category-select */
+#category-select {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    max-height: 200px; /* Définir une hauteur maximale pour activer le défilement vertical */
+    overflow-y: auto; /* Activer le défilement vertical si le contenu dépasse la hauteur maximale */
+}
+
+#category-select option {
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+/* Styles for input[type="text"] */
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Ajouter des bordures à la zone de texte */
+#task-input {
+    border: 1px solid #007bff; /* Couleur de la bordure */
+    border-radius: 5px; /* Arrondi des coins */
+    padding: 10px; /* Espace interne */
+    width: calc(100% - 150px); /* Largeur de la zone de texte */
+}
+
+/* Modifier la couleur du bouton pour correspondre */
+#add-task-btn {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espace intérieur */
+    border-radius: 5px; /* Arrondi des coins */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+/* Modifier l'apparence du bouton au survol */
+#add-task-btn:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+/* Ajouter de l'espace entre les éléments */
+form {
+    margin-top: 20px; /* Ajouter de l'espace en haut du formulaire */
+}
+
+#task-input,
+#category-select,
+#add-task-btn {
+    margin-bottom: 10px; /* Ajouter de l'espace en bas de chaque élément */
+}
